@@ -4,3 +4,17 @@ https://iptv-org.github.io/iptv/countries/az.m3u
 https://iptv-org.github.io/iptv/countries/tr.m3u
 https://iptv-org.github.io/iptv/countries/ru.m3u
 https://iptv-org.github.io/iptv/languages/aze.m3u
+https://raw.githubusercontent.com/aydin-rustemov/iptv/refs/heads/main/playlist.m3u
+https://raw.githubusercontent.com/itspec85/New/refs/heads/main/TV.m3u
+https://raw.githubusercontent.com/denisskashin/iptv/refs/heads/main/tv/children.m3u
+https://raw.githubusercontent.com/denisskashin/iptv/refs/heads/main/tv/cinema.m3u
+https://raw.githubusercontent.com/denisskashin/iptv/refs/heads/main/tv/tv_series.m3u
+https://raw.githubusercontent.com/denisskashin/iptv/refs/heads/main/tv/discovery.m3u
+https://raw.githubusercontent.com/denisskashin/iptv/refs/heads/main/tv/foreign.m3u
+https://raw.githubusercontent.com/denisskashin/iptv/refs/heads/main/tv/hobby.m3u
+https://raw.githubusercontent.com/denisskashin/iptv/refs/heads/main/tv/index.m3u
+https://raw.githubusercontent.com/denisskashin/iptv/refs/heads/main/tv/music.m3u
+https://raw.githubusercontent.com/denisskashin/iptv/refs/heads/main/tv/sport.m3u
+https://raw.githubusercontent.com/ASKER80PMR/IPTV/refs/heads/main/MoeTV.m3u8
+https://raw.githubusercontent.com/Jasser293/MyList/refs/heads/main/list
+https://raw.githubusercontent.com/Jasser293/mama/refs/heads/main/Listtv
