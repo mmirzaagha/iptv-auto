@@ -1,0 +1,33 @@
+name: update-playlist
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-playlist
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Yoxla və playlisti yenilə
+        run: python build.py
+        env:
+          WORKER_URL: ${{ vars.WORKER_URL }}
+      - name: Dəyişiklik varsa yaz
+        run: |
+          git config user.name "iptv-bot"
+          git config user.email "iptv-bot@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || (git commit -m "avto yenilənmə" && git push)
