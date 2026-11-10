@@ -1,0 +1,6 @@
+# Ehtiyat link axtarılan açıq siyahılar (hər sətirdə bir m3u linki).
+# Başqa GitHub siyahısı əlavə etmək üçün onun "raw" m3u linkini bura yaz.
+https://iptv-org.github.io/iptv/countries/az.m3u
+https://iptv-org.github.io/iptv/countries/tr.m3u
+https://iptv-org.github.io/iptv/countries/ru.m3u
+https://iptv-org.github.io/iptv/languages/aze.m3u

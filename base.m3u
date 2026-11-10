@@ -1,0 +1,358 @@
+#EXTM3U
+
+# ==================================================
+# 🇦🇿 AZƏRBAYCAN
+# ==================================================
+
+# ⭐ ƏSAS
+#EXTINF:-1 tvg-logo="https://i.ibb.co/VC7Q18V/azflag.png" group-title="⭐ Əsas",AZ TV
+http://109.205.166.68/server124/aztv/index3.m3u8?e=1676581573&st=AzGSZjk1DpXY1SLc1m4OvA
+#EXTINF:-1 tvg-id="IctimaiTV.az" tvg-logo="https://i.imgur.com/HzY4VMo.png" group-title="⭐ Əsas",İctimai TV
+https://live.itv.az/itv.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/VC7Q18V/azflag.png" group-title="⭐ Əsas",BAKU TV
+https://rtmp.baku.tv/hls/bakutv_1080p.m3u8
+#EXTINF:-1 tvg-name="AZADTV.az" group-title="⭐ Əsas",ATV AZ
+https://lives.atv.az:5443/ATV_TV_STREAM/streams/atvcanli.m3u8
+#EXTINF:-1 group-title="⭐ Əsas",Xezer TV
+http://erlyvideo.izone.az:80/xezertv/mono.m3u8
+#EXTINF:-1 tvg-name="ELTV.az" group-title="⭐ Əsas",EL TV
+http://85.132.53.162:1935/live/eltv/playlist.m3u8
+#EXTINF:-1 group-title="⭐ Əsas",ARB
+http://erlyvideo.izone.az:80/arb/mono.m3u8
+#EXTINF:-1 group-title="⭐ Əsas",ARB 24 HD AZ
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/U3PFTYPG76MSLWDDT2ZW8A6H/2188/index.m3u8
+#EXTINF:-1 group-title="⭐ Əsas",Space TV AZ
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/U3PFTYPG76MSLWDDT2ZW8A6H/2190/index.m3u8
+#EXTINF:-1 group-title="⭐ Əsas",KATV1
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/U3PFTYPG76MSLWDDT2ZW8A6H/16042/index.m3u8
+#EXTINF:-1 group-title="⭐ Əsas",Kəpəz TV
+http://85.132.78.122:8050/hls/stream/index.m3u8
+#EXTINF:-1 group-title="⭐ Əsas",Show Plus AZE
+https://rtmp.showplus.tv/hls/myshow.m3u8
+#EXTINF:-1 group-title="⭐ Əsas",Könül TV
+http://cdn-konultvazerbaijan.yayin.com.tr/konultvazerbaijan/konultvazerbaijan/playlist.m3u8
+
+
+
+# 🎬 FİLM
+#EXTINF:-1 group-title="🎬 Film",Diginet Cinema Az
+https://a8.radyotelekom.com.tr:3276/stream/play.m3u8
+#EXTINF:-1 group-title="🎬 Film",ATV Cinema AZ
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/S8VNGCFUZYYPDT/2120/index.m3u8
+
+# 🎵 MUSİQİ
+#EXTINF:-1 group-title="🎵 Musiqi",KN Music TV
+https://cdn4.yayin.com.tr/kntv/tracks-v1a1/mono.m3u8
+
+
+
+
+# ⚽ İDMAN
+#EXTINF:-1 group-title="⚽ İdman",CBC Sport
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/U3PFTYPG76MSLWDDT2ZW8A6H/2193/index.m3u8
+
+
+# 👶 UŞAQ
+#EXTINF:-1 tvg-id="ext" tvg-name="TRT COCUK DIYANET" group-title="👶 Uşaq",Günəş ARB
+http://238071de.rostelekom.xyz/iptv/QNKP368YM8HMHKUU6G9EDBSL/2189/index.m3u8
+
+# 🧠 SƏNƏDLİ
+#EXTINF:-1 group-title="🧠 Sənədli",Mədəniyyət TV
+http://flussonic.izone.az:80/medeniyyet/mono.m3u8
+
+
+# ==================================================
+# 🇹🇷 TÜRKİYƏ
+# ==================================================
+
+# ⭐ ƏSAS
+#EXTINF:-1 tvg-id="TRT 1.tr" group-title="⭐ Əsas",TRT 1 HD
+http://89.187.191.41/TRT-1-HD-TR/video.m3u8
+#EXTINF:-1 tvg-id="ATV.tr@SD" group-title="⭐ Əsas",ATV (360p)
+http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_360p.m3u8
+#EXTINF:-1 tvg-id="KanalD.tr" group-title="⭐ Əsas",Kanal D HD
+http://live.duhnet.tv/S2/HLS_LIVE/kanalddainp/playlist.m3u8
+#EXTINF:-1 tvg-id="KanalD.tr" group-title="⭐ Əsas",NOW TV (720p)
+https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8
+#EXTINF:-1 tvg-name="SHOW TV" group-title="⭐ Əsas",SHOW TV HD
+https://ciner.daioncdn.net/showtv/showtv.m3u8?ce=3&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558
+#EXTINF:-1 tvg-name="STAR TV" group-title="⭐ Əsas",STAR TV HD
+https://dogus.daioncdn.net/startv/startv.m3u8?ce=3&app=1740db13-3ee9-4858-8d2c-b1a9cfaa3718
+#EXTINF:-1 tvg-name="TV 4" group-title="⭐ Əsas",Tv8 Hd
+http://flussonic.izone.az:80/tv8/mono.m3u8
+#EXTINF:-1 tvg-name="TV 4" group-title="⭐ Əsas",Tv8'5 Hd
+https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8bucuk/tv8bucuk_1080p.m3u8
+#EXTINF:-1 tvg-name="TV 4" group-title="⭐ Əsas",Beyaz Tv
+https://beyaztv-live.daioncdn.net/beyaztv/beyaztv.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="KANAL 7" group-title="⭐ Əsas",KANAL 7
+https://kanal7-live.daioncdn.net/kanal7/kanal7_1080p.m3u8
+#EXTINF:-1 tvg-name="KANAL 7 AVRUPA" group-title="⭐ Əsas",KANAL 7 AVRUPA
+https://livetv.radyotvonline.net/kanal7live/kanal7avr/chunklist.m3u8
+#EXTINF:-1 tvg-name="TV 4" group-title="⭐ Əsas",A2 Hd
+http://89.187.191.41/A2-HD-TR/video.m3u8
+#EXTINF:-1 tvg-name="TV 4" group-title="⭐ Əsas",TV 4
+https://turkmedya-live.ercdn.net/tv4/tv4_1080p.m3u8
+#EXTINF:-1 tvg-name="EURO D" group-title="⭐ Əsas",EURO D
+https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/track_4_1000/playlist.m3u8
+
+
+# 🎬 FİLM
+#EXTINF:-1 tvg-logo="https://e7.pngegg.com/pngimages/879/420/png-clipart-film-video-production-television-graphy-cine-miscellaneous-label-thumbnail.png" group-title="🎬 Film",SiNEMA 1
+https://host.onlineradyotv.net:8081/sdmtv/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="🎬 Film",Fim Z
+https://raw.githubusercontent.com/dedmasteriptv/moykanal/refs/heads/main/PlayerCinemaAction.m3u8
+#EXTINF:-1 group-title="🎬 Film",Fanatik Max Korku
+https://v2.catcast.tv/content/50717/seg-25826740-v1-a1/index.m3u8
+
+
+# 🎵 MUSİQİ
+#EXTINF:-1 group-title="🎵 Musiqi",TURK MUZIK
+https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 group-title="🎵 Musiqi",Kral Pop
+http://dygvideo.dygdigital.com/live/hls/kralpop
+#EXTINF:-1 group-title="🎵 Musiqi",Power Türk
+https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlists.m3u8
+#EXTINF:-1 group-title="🎵 Musiqi",Power Türk Slow
+https://listen.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8
+#EXTINF:-1 group-title="🎵 Musiqi",Power Dance
+https://listen.powerapp.com.tr/dance/dance.smil/playlist.m3u8
+#EXTINF:-1 group-title="🎵 Musiqi",NR1
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e17cd6360b_1/playlist.m3u8
+
+# ⚽ İDMAN
+#EXTINF:-1 group-title="⚽ İdman",S Sporr HD
+https://andro.3749206.xyz/checklist/androstreamlivess1.m3u8
+#EXTINF:-1 group-title="⚽ İdman", Bein Sport 1
+https://andro.3749206.xyz/checklist/androstreamlivebs1.m3u8
+#EXTINF:-1 group-title="⚽ İdman", Bein Sport 2
+https://andro.3749206.xyz/checklist/androstreamlivebs2.m3u8
+#EXTINF:-1 group-title="⚽ İdman", Bein Sport 4
+https://andro.3749206.xyz/checklist/androstreamlivebs4.m3u8
+#EXTINF:-1 group-title="⚽ İdman", HT SPOR
+https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/ht-spor/ht-spor.m3u8
+#EXTINF:-1 group-title="⚽ İdman", A SPOR
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8
+#EXTINF:-1 group-title="⚽ İdman", FB TV
+http://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8
+
+
+# 👶 UŞAQ
+#EXTINF:-1 tvg-logo="https://i.ibb.co/L8ftBdN/minikacocuk.png" group-title="👶 Uşaq",MİNİKA ÇOCUK
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk_480p.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/R2Zgy7F/minikago.png" group-title="👶 Uşaq",MİNİKA GO
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago_480p.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/YjkMYbF/trtcocuk21a.png" group-title="👶 Uşaq",TRT ÇOCUK
+https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="TRT COCUK DIYANET" group-title="👶 Uşaq",TRT COCUK DIYANET
+https://tv-trtdiyanetcocuk.medya.trt.com.tr/master_720.m3u8
+#EXTINF:-1 tvg-id="ext" tvg-name="CAILLOU" group-title="👶 Uşaq",CAILLOU
+https://catcast.ismailturret.workers.dev/fanatikkidscaillou.m3u8
+
+# 🧠 SƏNƏDLİ
+#EXTINF:-1 tvg-id="Ed Stafford" group-title="🧠 Sənədli",Ed Stafford
+https://catcast.ismailturret.workers.dev/fanatikprimeEdStafford.m3u8
+
+
+# ==================================================
+# 🇷🇺 RUSİYA
+# ==================================================
+
+# ⭐ ƏSAS
+#EXTINF:-1 tvg-id="ntv" group-title="⭐ Əsas",РЕН ТВ
+http://185.32.44.154/rentv/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-id="ntv" tvg-logo="https://iptvx.one/picons/ntv.png" group-title="⭐ Əsas",НТВ HD
+http://cdn2.ntv.ru/ntv0_hd/playlist.m3u8
+#EXTINF:-1 tvg-id="ntv-style" tvg-logo="https://iptvx.one/picons/ntv-style.png" group-title="⭐ Əsas",НТВ Стиль
+http://cdn2.ntv.ru/th_style/playlist.m3u8
+#EXTINF:-1 tvg-id="ntv-serial" tvg-logo="https://iptvx.one/picons/ntv-serial.png" group-title="⭐ Əsas",НТВ Сериал
+http://cdn2.ntv.ru/th_serial/playlist.m3u8
+#EXTINF:-1 tvg-id="ntv-xit" tvg-logo="https://iptvx.one/picons/ntv-xit.png" group-title="⭐ Əsas",НТВ Хит
+http://cdn2.ntv.ru/th_hit/playlist.m3u8
+#EXTINF:-1 tvg-id="bolshaya-azia" tvg-logo="https://iptvx.one/picons/bolshaya-azia.png" group-title="⭐ Əsas",Большая Азия HD
+https://live-bigasia.cdnvideo.ru/bigasia/bigasia.smil/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="ТВ3" group-title="⭐ Əsas",ТВ3
+http://vipl.one/hls/28u6ktvdax/15.m3u8
+#EXTINF:-1 tvg-id="Домашний" group-title="⭐ Əsas",Домашний
+http://vipl.one/hls/28u6ktvdax/14.m3u8
+#EXTINF:-1 tvg-id="ТНТ4" group-title="⭐ Əsas",ТНТ4
+http://vipl.one/hls/28u6ktvdax/476.m3u8
+#EXTINF:-1 tvg-id="ТНТ" group-title="⭐ Əsas",ТНТ
+http://vipl.one/hls/28u6ktvdax/19.m3u8
+#EXTINF:-1 tvg-id="Пятница! HD" group-title="⭐ Əsas",Пятница! HD
+http://vipl.one/hls/28u6ktvdax/35.m3u8
+#EXTINF:-1 tvg-id="СТС HD" group-title="⭐ Əsas",СТС HD
+http://vipl.one/hls/28u6ktvdax/1061.m3u8
+
+# 🎬 FİLM
+#EXTINF:-1 group-title="🎬 Film",Мужское кино
+http://185.121.1.163:8083/MuzhskoeKino/index.m3u8
+#EXTINF:-1 group-title="🎬 Film",Киноxит
+https://flussonic.mkpnet.ru/tv-513b9c22f4277475/video.m3u8
+#EXTINF:-1 group-title="🎬 Film",Kinomiks
+http://stream.mcquack.net/133/index.m3u8
+#EXTINF:-1 group-title="🎬 Film",КИНОПОКАЗ
+http://176.118.197.101/Kinopokaz/mono.m3u8
+#EXTINF:-1 group-title="🎬 Film",Кинопремьера
+http://185.121.1.163:8083/Kinopremyera/index.m3u8
+#EXTINF:-1 group-title="🎬 Film",Киносвидание
+http://s1.merlive.am/kinosvidanie/index.m3u8
+#EXTINF:-1 group-title="🎬 Film",viju+ Megahit HD (1080p)
+http://stream.mcquack.net/200/index.m3u8
+#EXTINF:-1 group-title="🎬 Film",viju+ Premiere HD (1080p)
+http://stream.mcquack.net/202/index.m3u8
+#EXTINF:-1 group-title="🎬 Film",viju TV1000 Action
+http://stream.mcquack.net/100/index.m3u8
+#EXTINF:-1 group-title="🎬 Film",Киноужас
+http://stream.mcquack.net/278/index.m3u8
+#EXTINF:-1 group-title="🎬 Film",КИНОКОМЕДИЯ
+http://176.118.197.101/Kinokomediya/index.m3u8
+#EXTINF:-1 group-title="🎬 Film",КИНОСЕРИЯ
+http://176.118.197.101/Kinoseria/index.m3u8
+#EXTINF:-1 group-title="🎬 Film",.black
+http://stream.mcquack.net/263/index.m3u8
+#EXTINF:-1 group-title="🎬 Film",Киносат
+http://185.121.1.163:8083/Kinoman/index.m3u8
+#EXTINF:-1 group-title="🎬 Film",Cinema
+http://176.118.197.101/Cinema/index.m3u8
+#EXTINF:-1 group-title="🎬 Film",Viasat Epic Drama
+http://195.189.60.253/118/index.m3u8
+#EXTINF:-1 group-title="🎬 Film",Dom kino Premium HD (1080p)
+http://stream.mcquack.net/108/index.m3u8
+#EXTINF:-1 group-title="🎬 Film",Film UA Drama
+http://88.99.215.227/FilmUADrama/index.m3u8
+#EXTINF:-1 group-title="🎬 Film",Мосфильм. Золотая коллекция
+http://stream.mcquack.net/369/index.m3u8
+#EXTINF:-1 group-title="🎬 Film",Кино 1 International [Not 24/7]
+http://kino-1.catcast.tv/content/38617/index.m3u8
+#EXTINF:-1 tvg-id="Discovery" group-title="🎬 Film",KinoKazka
+http://stream.mcquack.net/167/index.m3u8
+#EXTINF:-1 tvg-id="Discovery" group-title="🎬 Film",Fox
+http://stream.mcquack.net/182/index.m3u8
+#EXTINF:-1 tvg-id="Discovery" group-title="🎬 Film",Fox Life
+http://stream.mcquack.net/129/index.m3u8
+#EXTINF:-1 tvg-id="Discovery" group-title="🎬 Film",Hollywood
+http://stream.mcquack.net/268/index.m3u8
+
+# VF kanalları da 🎬 Film qrupundadır
+#EXTINF:-1 group-title="🎬 Film",VF Netflix
+http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/19427/index.m3u8
+#EXTINF:-1 group-title="🎬 Film",VF Premiere
+http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/10052/index.m3u8
+#EXTINF:-1 group-title="🎬 Film",VF Comedy
+http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/10003/index.m3u8
+#EXTINF:-1 group-title="🎬 Film",VF Classic
+http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/10054/index.m3u8
+#EXTINF:-1 group-title="🎬 Film",VF Боевик
+http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/10087/index.m3u8
+#EXTINF:-1 group-title="🎬 Film",VF Катастрофы
+http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/10080/index.m3u8
+#EXTINF:-1 group-title="🎬 Film",VF Detective
+http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/11120/index.m3u8
+#EXTINF:-1 group-title="🎬 Film",VF Mystic
+http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/10007/index.m3u8
+#EXTINF:-1 group-title="🎬 Film",VF Fantastic
+http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/11121/index.m3u8
+#EXTINF:-1 group-title="🎬 Film",VF Marvel
+http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/10081/index.m3u8
+#EXTINF:-1 group-title="🎬 Film",VF Comics
+http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/13092/index.m3u8
+#EXTINF:-1 group-title="🎬 Film",VF Adventure
+http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/10000/index.m3u8
+#EXTINF:-1 group-title="🎬 Film",VF Fantasy
+http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/10005/index.m3u8
+#EXTINF:-1 group-title="🎬 Film",VF Thriller
+http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/13089/index.m3u8
+#EXTINF:-1 group-title="🎬 Film",VF История
+http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/13091/index.m3u8
+#EXTINF:-1 group-title="🎬 Film",VF Оскар
+http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/11122/index.m3u8
+#EXTINF:-1 group-title="🎬 Film",VF Family
+http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/10004/index.m3u8
+#EXTINF:-1 group-title="🎬 Film",VF Melodrama
+http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/10006/index.m3u8
+#EXTINF:-1 group-title="🎬 Film",VF Ужасы
+http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/10008/index.m3u8
+#EXTINF:-1 group-title="🎬 Film",VF Ужасы VHS
+http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/10010/index.m3u8
+#EXTINF:-1 group-title="🎬 Film",VF Криминал
+http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/13093/index.m3u8
+#EXTINF:-1 group-title="🎬 Film",VF Art house
+http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/11119/index.m3u8
+#EXTINF:-1 group-title="🎬 Film",VF Мосфильм
+http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/10084/index.m3u8
+#EXTINF:-1 group-title="🎬 Film",VF Disney Movie
+http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/15010/index.m3u8
+
+
+# 🎵 MUSİQİ
+#EXTINF:-1 group-title="🎵 Musiqi",Bridge TV
+http://stream.mcquack.net/318/index.m3u8
+#EXTINF:-1 group-title="🎵 Musiqi",BRIDGE Classic
+http://stream.mcquack.net/272/index.m3u8
+#EXTINF:-1 group-title="🎵 Musiqi",BRIDGE Deluxe HD
+http://stream.mcquack.net/92/index.m3u8
+#EXTINF:-1 group-title="🎵 Musiqi",BRIDGE Hits
+http://stream.mcquack.net/320/index.m3u8
+#EXTINF:-1 group-title="🎵 Musiqi",BRIDGE Rock
+http://178.134.1.158:8081/BRIDGEROCK/index.m3u8
+
+
+
+# ⚽ İDMAN
+
+#EXTINF:-1 group-title="⚽ İdman",Футбол 1
+http://109.205.166.68/2712/match_futbol_1/index3.m3u8?st=jZDkhPwrilakQINreN0w2w&e=1652674806
+#EXTINF:-1 group-title="⚽ İdman",Футбол 2
+http://109.205.166.68/2712/match_futbol_2/index3.m3u8?st=jZDkhPwrilakQINreN0w2w&e=1652674806
+#EXTINF:-1 group-title="⚽ İdman",Футбол 3
+http://109.205.166.68/2712/match_futbol_3/index3.m3u8?st=jZDkhPwrilakQINreN0w2w&e=1652674806
+#EXTINF:-1 group-title="⚽ İdman",Setanta Eurasia HD
+http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/271/index.m3u
+#EXTINF:-1 group-title="⚽ İdman",Setanta Ukraine HD
+http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/272/index.m3u
+#EXTINF:-1 group-title="⚽ İdman",Setanta Ukraine Plus HD
+http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/5068/index.m3u
+#EXTINF:-1 group-title="⚽ İdman",Viju+ Sport
+http://stream.mcquack.net/333/index.m3u8
+#EXTINF:-1 group-title="⚽ İdman",Футбол
+http://178.124.179.122:8088/Setanta1/index.m3u8
+#EXTINF:-1 group-title="⚽ İdman",ТВ Спорт HD
+http://live-3.otcnet.ru/sportivny/tracks-v1a1/mono.ts.m3u8
+
+
+# 🧠 SƏNƏDLİ
+#EXTINF:-1 tvg-id="Зоопарк" group-title="🧠 Sənədli",Animal Planet HD
+http://vipl.one/hls/28u6ktvdax/295.m3u8
+#EXTINF:-1 tvg-id="Viju nature" group-title="🧠 Sənədli",Viju nature
+https://flussonic.mkpnet.ru/tv-7a85ea25208f5bf7/video.m3u8
+#EXTINF:-1 tvg-id="Viju explore" group-title="🧠 Sənədli",Viju explore
+https://flussonic.mkpnet.ru/tv-7c57a4c3f9a896ea/video.m3u8
+#EXTINF:-1 tvg-id="Viju explore" group-title="🧠 Sənədli",Viasat History
+http://185.32.44.154/viasathistory/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-id="Viju explore" group-title="🧠 Sənədli",Discovery Channel
+http://mfe02.cliptv.az/dash/Discovery_Channel_HDqwer456y.ism/playlist.mpd
+#EXTINF:-1 tvg-id="Viju explore" group-title="🧠 Sənədli",National Geographic
+http://stream.mcquack.net/116/index.m3u8
+#EXTINF:-1 tvg-id="TLC" group-title="🧠 Sənədli",TLC
+http://vipl.one/hls/28u6ktvdax/169.m3u8
+
+# ==================================================
+# QEYD
+# ==================================================
+# Ölkə başlıqları yalnız kommentdir.
+# Televizo qrupları group-title əsasında yaradır.
+#
+# Eyni group-title olan bütün ölkələrin kanalları
+# eyni qrupda birləşəcək:
+#
+# ⭐ Əsas
+# 🎭 Əyləncə
+# 🎬 Film
+# 🎵 Musiqi
+# ⚽ İdman
+# 👶 Uşaq
+# 🧠 Sənədli
+#
+# Fayl daxilində sıra:
+# 🇦🇿 Azərbaycan → 🇹🇷 Türkiyə → 🇷🇺 Rusiya
+# ==================================================
