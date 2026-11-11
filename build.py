@@ -167,27 +167,41 @@ def main():
         status = dict(zip(all_urls, ex.map(check, all_urls)))
 
     # 4. seçim
-    changed, dead, new_choice = [], [], {}
+    # Qayda: öz (base) linklərin heç vaxt yalnız GitHub-ın "ölü" hökmü ilə dəyişdirilmir,
+    # çünki GitHub xaricdədir və coğrafi bloklanan linkləri görə bilmir.
+    # Birbaşa playlist (0130.m3u): işləyən base link, yoxsa birinci base link.
+    # Alternativlər yalnız channels.json-da ehtiyat kimi qalır (Worker onları istifadə edir).
+    changed, unseen, dead, new_choice = [], [], [], {}
     out_json = {}
     lines = ["#EXTM3U"]
     live_lines = ["#EXTM3U"]
     for key in order:
         ch = channels[key]
-        urls = [c["url"] for c in ch["cands"]]
-        ok = [u for u in urls if status.get(u)]
-        bad = [u for u in urls if not status.get(u)]
+        base_urls = [c["url"] for c in ch["cands"] if c["src"] == "base"]
+        alt_urls = [c["url"] for c in ch["cands"] if c["src"] != "base"]
+        base_ok = [u for u in base_urls if status.get(u)]
+        base_bad = [u for u in base_urls if not status.get(u)]
+        alt_ok = [u for u in alt_urls if status.get(u)]
+        alt_bad = [u for u in alt_urls if not status.get(u)]
         prev = state["choice"].get(ch["id"])
-        if prev in ok:                       # işləyirsə, yerində saxla (yelləncək olmasın)
-            ok.remove(prev)
-            ok.insert(0, prev)
-        best = ok[0] if ok else urls[0]
-        if ok:
+        if prev in base_ok:                  # işləyirsə, yerində saxla (yelləncək olmasın)
+            base_ok.remove(prev)
+            base_ok.insert(0, prev)
+        best = base_ok[0] if base_ok else base_urls[0]
+        if base_ok:
             new_choice[ch["id"]] = best
             if prev and prev != best:
-                changed.append(f"{ch['name']}: link dəyişdi")
+                changed.append(f"{ch['name']}: ehtiyat base linkə keçdi")
+        elif alt_ok:
+            unseen.append(f"{ch['name']} (GitHub-dan görünmür, işləyən alternativ var)")
         else:
             dead.append(ch["name"])
-        out_json[ch["id"]] = {"name": ch["name"], "urls": ok + bad, "alive": len(ok)}
+        # Worker sırası: işləyən base, yoxlanmayan base, işləyən alternativ, qalanlar
+        out_json[ch["id"]] = {
+            "name": ch["name"],
+            "urls": base_ok + base_bad + alt_ok + alt_bad,
+            "alive": len(base_ok) + len(alt_ok),
+        }
 
         attrs = " ".join(f'{k}="{v}"' for k, v in ch["attrs"].items())
         head = f"#EXTINF:-1 {attrs},{ch['name']}" if attrs else f"#EXTINF:-1,{ch['name']}"
@@ -206,12 +220,18 @@ def main():
     with open(STATE_FILE, "w", encoding="utf-8") as f:
         json.dump(state, f, ensure_ascii=False, indent=1)
 
-    alive_total = len(order) - len(dead)
+    alive_total = len(order) - len(dead) - len(unseen)
     with open(REPORT_FILE, "w", encoding="utf-8") as f:
-        f.write(f"# Hesabat\n\nİşləyən kanal: {alive_total} / {len(order)}\n\n")
-        f.write("## Ölü kanallar (heç bir link işləmir)\n" + ("\n".join(f"- {n}" for n in dead) or "- yoxdur") + "\n\n")
+        f.write(f"# Hesabat\n\nGitHub-dan təsdiqlənən kanal: {alive_total} / {len(order)}\n\n")
+        f.write("NOT: GitHub serverləri xaricdədir. Aşağıdakı siyahılar yalnız GitHub-ın gördüyüdür, "
+                "Azərbaycandan baxanda bu kanalların çoxu işləyə bilər. Əsas linklər silinmir.\n\n")
+        f.write("## GitHub-dan görünməyən kanallar (heç bir link açılmır, əsas link saxlanıldı)\n"
+                + ("\n".join(f"- {n}" for n in dead) or "- yoxdur") + "\n\n")
+        f.write("## Əsas link görünmür, amma alternativ açılır (əsas link saxlanıldı)\n"
+                + ("\n".join(f"- {n}" for n in unseen) or "- yoxdur") + "\n\n")
         f.write("## Bu dəfə dəyişənlər\n" + ("\n".join(f"- {n}" for n in changed) or "- yoxdur") + "\n")
-    print(f"Hazırdır: {alive_total}/{len(order)} kanal işləyir, {len(dead)} ölü, {len(changed)} dəyişdi")
+    print(f"Hazırdır: {alive_total}/{len(order)} təsdiqləndi, {len(unseen)} alternativli, "
+          f"{len(dead)} görünmür, {len(changed)} dəyişdi")
 
 
 if __name__ == "__main__":
