@@ -1,6 +1,6 @@
 # Hesabat
 
-GitHub-dan təsdiqlənən kanal: 106 / 136
+GitHub-dan təsdiqlənən kanal: 112 / 136
 
 NOT: GitHub serverləri xaricdədir. Aşağıdakı siyahılar yalnız GitHub-ın gördüyüdür, Azərbaycandan baxanda bu kanalların çoxu işləyə bilər. Əsas linklər silinmir.
 
@@ -14,31 +14,23 @@ NOT: GitHub serverləri xaricdədir. Aşağıdakı siyahılar yalnız GitHub-ın
 - CBC Sport
 - Günəş ARB
 - Mədəniyyət TV
-- NOW TV (720p)
-- Tv8 Hd
 - KANAL 7
-- Fanatik Max Korku
 - S Sporr HD
 - Bein Sport 1
 - Bein Sport 2
 - Bein Sport 4
+- A SPOR
 - TRT COCUK DIYANET
 - Film UA Drama
-- VF Adventure
-- BRIDGE Hits
+- VF Катастрофы
 - Viasat History
 
 ## Əsas link görünmür, amma alternativ açılır (əsas link saxlanıldı)
-- ATV (360p) (GitHub-dan görünmür, işləyən alternativ var)
+- Tv8 Hd (GitHub-dan görünmür, işləyən alternativ var)
 - РЕН ТВ (GitHub-dan görünmür, işləyən alternativ var)
-- viju+ Megahit HD (1080p) (GitHub-dan görünmür, işləyən alternativ var)
-- viju+ Premiere HD (1080p) (GitHub-dan görünmür, işləyən alternativ var)
-- Мосфильм. Золотая коллекция (GitHub-dan görünmür, işləyən alternativ var)
+- Киноужас (GitHub-dan görünmür, işləyən alternativ var)
+- .black (GitHub-dan görünmür, işləyən alternativ var)
 - Fox (GitHub-dan görünmür, işləyən alternativ var)
-- BRIDGE Deluxe HD (GitHub-dan görünmür, işləyən alternativ var)
-- Viju+ Sport (GitHub-dan görünmür, işləyən alternativ var)
 
 ## Bu dəfə dəyişənlər
-- .black: ehtiyat base linkə keçdi
-- Hollywood: ehtiyat base linkə keçdi
-- Bridge TV: ehtiyat base linkə keçdi
+- yoxdur
