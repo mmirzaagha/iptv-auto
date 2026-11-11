@@ -50,7 +50,7 @@ https://ciner.daioncdn.net/showtv/showtv.m3u8?ce=3&app=4bc856ef-4c68-4a94-bc87-3
 #EXTINF:-1 tvg-name="STAR TV" group-title="⭐ Əsas",STAR TV HD
 https://dogus.daioncdn.net/startv/startv.m3u8?ce=3&app=1740db13-3ee9-4858-8d2c-b1a9cfaa3718
 #EXTINF:-1 tvg-name="TV 4" group-title="⭐ Əsas",Tv8 Hd
-https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3
+http://flussonic.izone.az:80/tv8/mono.m3u8
 #EXTINF:-1 tvg-name="TV 4" group-title="⭐ Əsas",Tv8'5 Hd
 https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8bucuk/tv8bucuk_1080p.m3u8
 #EXTINF:-1 tvg-name="TV 4" group-title="⭐ Əsas",Beyaz Tv
@@ -110,7 +110,7 @@ https://catcast.ismailturret.workers.dev/fanatikkidscaillou.m3u8
 #EXTINF:-1 tvg-id="Ed Stafford" group-title="🧠 Sənədli",Ed Stafford
 https://catcast.ismailturret.workers.dev/fanatikprimeEdStafford.m3u8
 #EXTINF:-1 tvg-id="ntv" group-title="⭐ Əsas",РЕН ТВ
-http://api.dommir.top/ch/Ren_TV_HD_RU_hi/playlist.m3u8
+http://185.32.44.154/rentv/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-id="ntv" tvg-logo="https://iptvx.one/picons/ntv.png" group-title="⭐ Əsas",НТВ HD
 http://cdn2.ntv.ru/ntv0_hd/playlist.m3u8
 #EXTINF:-1 tvg-id="ntv-style" tvg-logo="https://iptvx.one/picons/ntv-style.png" group-title="⭐ Əsas",НТВ Стиль
@@ -146,9 +146,9 @@ http://185.121.1.163:8083/Kinopremyera/index.m3u8
 #EXTINF:-1 group-title="🎬 Film",Киносвидание
 http://s1.merlive.am/kinosvidanie/index.m3u8
 #EXTINF:-1 group-title="🎬 Film",viju+ Megahit HD (1080p)
-http://46.53.200.153:7777/play/Viju_Megahit_HD/index.m3u8
+http://stream.mcquack.net/200/index.m3u8
 #EXTINF:-1 group-title="🎬 Film",viju+ Premiere HD (1080p)
-http://46.53.200.153:7777/play/Viju_Premiere/index.m3u8
+http://stream.mcquack.net/202/index.m3u8
 #EXTINF:-1 group-title="🎬 Film",viju TV1000 Action
 http://stream.mcquack.net/100/index.m3u8
 #EXTINF:-1 group-title="🎬 Film",Киноужас
@@ -158,7 +158,7 @@ http://176.118.197.101/Kinokomediya/index.m3u8
 #EXTINF:-1 group-title="🎬 Film",КИНОСЕРИЯ
 http://176.118.197.101/Kinoseria/index.m3u8
 #EXTINF:-1 group-title="🎬 Film",.black
-http://85.117.61.84/black/tracks-v1a1/mono.m3u8
+http://stream.mcquack.net/263/index.m3u8
 #EXTINF:-1 group-title="🎬 Film",Киносат
 http://185.121.1.163:8083/Kinoman/index.m3u8
 #EXTINF:-1 group-title="🎬 Film",Cinema
@@ -170,7 +170,7 @@ http://stream.mcquack.net/108/index.m3u8
 #EXTINF:-1 group-title="🎬 Film",Film UA Drama
 http://88.99.215.227/FilmUADrama/index.m3u8
 #EXTINF:-1 group-title="🎬 Film",Мосфильм. Золотая коллекция
-http://185.121.1.163:8083/Mosfilm/index.m3u8
+http://stream.mcquack.net/369/index.m3u8
 #EXTINF:-1 group-title="🎬 Film",Кино 1 International [Not 24/7]
 http://kino-1.catcast.tv/content/38617/index.m3u8
 #EXTINF:-1 tvg-id="Discovery" group-title="🎬 Film",KinoKazka
@@ -180,7 +180,7 @@ http://stream.mcquack.net/182/index.m3u8
 #EXTINF:-1 tvg-id="Discovery" group-title="🎬 Film",Fox Life
 http://stream.mcquack.net/129/index.m3u8
 #EXTINF:-1 tvg-id="Discovery" group-title="🎬 Film",Hollywood
-http://stream1.cinerama.uz/1443/index.m3u8
+http://stream.mcquack.net/268/index.m3u8
 #EXTINF:-1 group-title="🎬 Film",VF Netflix
 http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/19427/index.m3u8
 #EXTINF:-1 group-title="🎬 Film",VF Premiere
@@ -230,11 +230,11 @@ http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/10084/index.m3u8
 #EXTINF:-1 group-title="🎬 Film",VF Disney Movie
 http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/15010/index.m3u8
 #EXTINF:-1 group-title="🎵 Musiqi",Bridge TV
-http://flussonic.mkpnet.ru/tv-ceaa6aa3cc1ea359/video.m3u8
+http://stream.mcquack.net/318/index.m3u8
 #EXTINF:-1 group-title="🎵 Musiqi",BRIDGE Classic
 http://stream.mcquack.net/272/index.m3u8
 #EXTINF:-1 group-title="🎵 Musiqi",BRIDGE Deluxe HD
-http://5.188.159.128:8070/Bridge_TV_Deluxe/index.m3u8
+http://stream.mcquack.net/92/index.m3u8
 #EXTINF:-1 group-title="🎵 Musiqi",BRIDGE Hits
 http://stream.mcquack.net/320/index.m3u8
 #EXTINF:-1 group-title="🎵 Musiqi",BRIDGE Rock
@@ -252,7 +252,7 @@ http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/272/index.m3u
 #EXTINF:-1 group-title="⚽ İdman",Setanta Ukraine Plus HD
 http://jexywacp.tvclub.xyz/iptv/2VLF3G39GK7LBH/5068/index.m3u
 #EXTINF:-1 group-title="⚽ İdman",Viju+ Sport
-http://31.148.5.241/Viasat_Sport/index.m3u8
+http://stream.mcquack.net/333/index.m3u8
 #EXTINF:-1 group-title="⚽ İdman",Футбол
 http://178.124.179.122:8088/Setanta1/index.m3u8
 #EXTINF:-1 group-title="⚽ İdman",ТВ Спорт HD
