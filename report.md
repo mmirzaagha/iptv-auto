@@ -1,6 +1,6 @@
 # Hesabat
 
-İşləyən kanal: 89 / 136
+İşləyən kanal: 86 / 136
 
 ## Ölü kanallar (heç bir link işləmir)
 - İctimai TV
@@ -12,14 +12,16 @@
 - CBC Sport
 - Günəş ARB
 - Mədəniyyət TV
-- Tv8 Hd
 - KANAL 7
 - S Sporr HD
 - Bein Sport 1
 - Bein Sport 2
 - Bein Sport 4
+- TRT ÇOCUK
 - TRT COCUK DIYANET
+- Kinomiks
 - Film UA Drama
+- KinoKazka
 - Fox
 - Fox Life
 - VF Netflix
@@ -46,6 +48,7 @@
 - VF Art house
 - VF Мосфильм
 - VF Disney Movie
+- BRIDGE Hits
 - Setanta Eurasia HD
 - Setanta Ukraine HD
 - Setanta Ukraine Plus HD
