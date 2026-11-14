@@ -1,6 +1,6 @@
 # Hesabat
 
-GitHub-dan təsdiqlənən kanal: 108 / 136
+GitHub-dan təsdiqlənən kanal: 105 / 136
 
 NOT: GitHub serverləri xaricdədir. Aşağıdakı siyahılar yalnız GitHub-ın gördüyüdür, Azərbaycandan baxanda bu kanalların çoxu işləyə bilər. Əsas linklər silinmir.
 
@@ -11,6 +11,7 @@ NOT: GitHub serverləri xaricdədir. Aşağıdakı siyahılar yalnız GitHub-ın
 - ARB 24 HD AZ
 - Space TV AZ
 - KATV1
+- Könül TV
 - CBC Sport
 - Günəş ARB
 - Mədəniyyət TV
@@ -20,16 +21,18 @@ NOT: GitHub serverləri xaricdədir. Aşağıdakı siyahılar yalnız GitHub-ın
 - Bein Sport 1
 - Bein Sport 2
 - Bein Sport 4
-- A SPOR
 - TRT COCUK DIYANET
 - Kinomiks
-- Dom kino Premium HD (1080p)
 - Film UA Drama
+- Fox Life
 - Viasat History
 
 ## Əsas link görünmür, amma alternativ açılır (əsas link saxlanıldı)
 - РЕН ТВ (GitHub-dan görünmür, işləyən alternativ var)
 - Киносвидание (GitHub-dan görünmür, işləyən alternativ var)
+- viju+ Megahit HD (1080p) (GitHub-dan görünmür, işləyən alternativ var)
+- viju+ Premiere HD (1080p) (GitHub-dan görünmür, işləyən alternativ var)
+- .black (GitHub-dan görünmür, işləyən alternativ var)
 - Fox (GitHub-dan görünmür, işləyən alternativ var)
 - Hollywood (GitHub-dan görünmür, işləyən alternativ var)
 - Bridge TV (GitHub-dan görünmür, işləyən alternativ var)
